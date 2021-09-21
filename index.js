@@ -15,6 +15,16 @@ let DATA = {
   }),
 };
 
+async function setWeatherInformation() {
+  await fetch(
+    `https://api.openweathermap.org/data/2.5/weather?q=kazan&appid=${process.env.OPEN_WEATHER_MAP_KEY}&units=metric`
+  )
+    .then(r => r.json())
+    .then(r => {
+      DATA.weather = Math.round(r.main.temp);
+    });
+}
+
 function generateReadMe() {
   fs.readFile(MUSTACHE_MAIN_DIR, (err, data) =>  {
     if (err) throw err;
