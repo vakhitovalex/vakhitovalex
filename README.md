@@ -7,8 +7,7 @@
 <h2>Languages and Tools:</h2> 
 <p align="left">
 <img alt="HTML" width="40px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg"/>
-<img alt="CSS" width="40px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg
-"/>
+<img alt="CSS" width="40px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg"/>
 <img alt="JavaScript" width="40px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"/>
 <img alt="React" width="40px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg"/>
 <img alt="Mongo" width="40px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg"/>
@@ -20,8 +19,8 @@
 <img alt="Express" width="40px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original.svg"/>
 <img alt="Postman" width="40px" src="https://logowiki.net/uploads/logo/p/postman.svg"/>
 
-Today is Tuesday, September 21, 11:34 PM GMT+3.
-Today's temperature in Kazan: 
+Today is Wednesday, September 22, 5:29 PM GMT+3.
+Today's temperature in Kazan: 10
 
 
 <h2>Reach me at:</h2>
