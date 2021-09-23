@@ -19,9 +19,10 @@
 <img alt="Express" width="40px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original.svg"/>
 <img alt="Postman" width="40px" src="https://logowiki.net/uploads/logo/p/postman.svg"/>
 
-Today is Wednesday, September 22, 5:29 PM GMT+3.
-Today's temperature in Kazan: 10
-
+<h2>
+Today is Thursday, September 23, 10:50 PM GMT+3.
+Today's temperature in Kazan: 10°C
+</h2>
 
 <h2>Reach me at:</h2>
 <p>

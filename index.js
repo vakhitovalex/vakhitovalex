@@ -6,6 +6,7 @@ dotenv.config();
 
 const MUSTACHE_MAIN_DIR = './main.mustache';
 const weather_key = process.env.OPEN_WEATHER_MAP_KEY;
+const weather_url = process.env.WEATHER_URL;
 let DATA = {
   name: 'Alex',
   date: new Date().toLocaleDateString('en-RU', {
@@ -19,26 +20,14 @@ let DATA = {
   }),
 };
 
-// const response = await fetch('https://api.github.com/users/github');
-// const data = await response.json();
-
-// console.log(data);
-
 async function setWeatherInformation() {
-  await fetch(
-    `https://api.openweathermap.org/data/2.5/weather?q=kazan&appid=${weather_key}&units=metric`
-  )
+  await fetch(`${weather_url}${weather_key}&units=metric`)
     .then((response) => response.json())
     .then((data) => {
-      console.log(data);
+      console.log(data.main.temp);
       DATA.weather = Math.round(data.main.temp);
     });
 }
-
-// fetch(
-//   '`https://api.openweathermap.org/data/2.5/weather?q=kazan&appid=${SECRET.OPEN_WEATHER_MAP_KEY}&units=metric`'
-// ).then((res) => res.json()
-// .then(res) => console.log(res));
 
 function generateReadMe() {
   fs.readFile(MUSTACHE_MAIN_DIR, (err, data) => {
