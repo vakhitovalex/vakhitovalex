@@ -21,7 +21,9 @@ let DATA = {
 };
 
 async function setWeatherInformation() {
-  await fetch(`${weather_url}${OPEN_WEATHER_MAP_KEY}&units=metric`)
+  await fetch(
+    `https://api.openweathermap.org/data/2.5/weather?q=kazan&appid=${OPEN_WEATHER_MAP_KEY}&units=metric`
+  )
     .then((response) => response.json())
     .then((data) => {
       console.log(data.main.temp);
