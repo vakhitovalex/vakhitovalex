@@ -14,10 +14,10 @@ jobs:
     steps:
       - name: Checkout current repository to Main branch
         uses: actions/checkout@v1
-      - name: Setup NodeJs 15.x
+      - name: Setup NodeJs 16.x
         uses: actions/setup-node@v1
         with:
-          node-version: '15.x'
+          node-version: '16.x'
       - name: Cache dependencies and build outputs to improve workflow execution time.
         uses: actions/cache@v1
         with:
@@ -31,5 +31,6 @@ jobs:
           OPEN_WEATHER_MAP_KEY: ${{secrets.OPEN_WEATHER_MAP_KEY}}
       - name: Commit and Push new README.md to the repository
         uses: mikeal/publish-to-github-action@master
+        BRANCH_NAME: 'main'
         env:
           GITHUB_TOKEN: ${{ secrets.WORKFLOW }}
