@@ -5,7 +5,7 @@ import dotenv from 'dotenv';
 dotenv.config();
 
 const MUSTACHE_MAIN_DIR = './main.mustache';
-const weather_key = process.env.OPEN_WEATHER_MAP_KEY;
+const OPEN_WEATHER_MAP_KEY = process.env.OPEN_WEATHER_MAP_KEY;
 const weather_url = process.env.WEATHER_URL;
 let DATA = {
   name: 'Alex',
@@ -21,7 +21,7 @@ let DATA = {
 };
 
 async function setWeatherInformation() {
-  await fetch(`${weather_url}${weather_key}&units=metric`)
+  await fetch(`${weather_url}${OPEN_WEATHER_MAP_KEY}&units=metric`)
     .then((response) => response.json())
     .then((data) => {
       console.log(data.main.temp);
