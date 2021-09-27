@@ -20,8 +20,8 @@
 <img alt="Postman" width="40px" src="https://logowiki.net/uploads/logo/p/postman.svg"/>
 
 <h2>
-Today is Thursday, September 23, 11:22 PM GMT+3.
-Today's temperature in Kazan: 9°C
+Today is Friday, September 24, 5:54 PM GMT+3.
+Today's temperature in <b>Kazan: 9°C</b>
 </h2>
 
 <h2>Reach me at:</h2>

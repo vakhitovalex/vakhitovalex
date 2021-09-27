@@ -26,8 +26,9 @@ async function setWeatherInformation() {
   )
     .then((response) => response.json())
     .then((data) => {
-      console.log(data.main.temp);
+      console.log(data);
       DATA.weather = Math.round(data.main.temp);
+      DATA.weatherDescriptiom = data.weather.main;
     });
 }
 
