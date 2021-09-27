@@ -8,7 +8,7 @@ dotenv.config();
 const MUSTACHE_MAIN_DIR = './main.mustache';
 const OPEN_WEATHER_MAP_KEY = process.env.OPEN_WEATHER_MAP_KEY;
 const weather_url = process.env.WEATHER_URL;
-let DATA = {
+let weatherData = {
   name: 'Alex',
   date: new Date().toLocaleDateString('en-RU', {
     weekday: 'long',
@@ -28,9 +28,21 @@ async function setWeatherInformation() {
     .then((response) => response.json())
     .then((data) => {
       console.log(data);
-      DATA.weather = Math.round(data.main.temp);
-      DATA.weatherDescriptiom = data.weather.main;
-      DATA.sunrise = new Date(data.sys.sunrise * 1000).toLocaleDateString(
+      weatherData.weather = Math.round(data.main.temp);
+      weatherData.weatherDescriptiom = data.weather.main;
+      moment().subtract(1, 'days');
+      weatherData.sunrise = new Date(
+        data.sys.sunrise * 1000
+      ).toLocaleDateString('en-RU', {
+        weekday: 'long',
+        month: 'long',
+        day: 'numeric',
+        hour: 'numeric',
+        minute: 'numeric',
+        timeZoneName: 'short',
+        timeZone: 'Europe/Moscow',
+      });
+      weatherData.sunset = new Date(data.sys.sunset * 1000).toLocaleDateString(
         'en-RU',
         {
           weekday: 'long',
@@ -42,25 +54,19 @@ async function setWeatherInformation() {
           timeZone: 'Europe/Moscow',
         }
       );
-      DATA.sunset = new Date(data.sys.sunset * 1000).toLocaleDateString(
-        'en-RU',
-        {
-          weekday: 'long',
-          month: 'long',
-          day: 'numeric',
-          hour: 'numeric',
-          minute: 'numeric',
-          timeZoneName: 'short',
-          timeZone: 'Europe/Moscow',
-        }
-      );
+      weatherData.time = data.sys.sunset - data.sys.sunrise;
+
+      const hours = Math.floor(weatherData.time / 3600) % 24;
+      const minutes = Math.floor(weatherData.time / 60) % 60;
+      console.log('calculated hours', hours, ' mins ', minutes);
+      console.log(moment(weatherData.time * 1000).format('hh:mm:ss'));
     });
 }
 
 function generateReadMe() {
   fs.readFile(MUSTACHE_MAIN_DIR, (err, data) => {
     if (err) throw err;
-    const output = Mustache.render(data.toString(), DATA);
+    const output = Mustache.render(data.toString(), weatherData);
     fs.writeFileSync('README.md', output);
   });
 }
