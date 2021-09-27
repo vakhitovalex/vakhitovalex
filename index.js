@@ -2,6 +2,7 @@ import Mustache from 'mustache';
 import fs from 'fs';
 import fetch from 'node-fetch';
 import dotenv from 'dotenv';
+import moment from 'moment';
 dotenv.config();
 
 const MUSTACHE_MAIN_DIR = './main.mustache';
@@ -29,6 +30,30 @@ async function setWeatherInformation() {
       console.log(data);
       DATA.weather = Math.round(data.main.temp);
       DATA.weatherDescriptiom = data.weather.main;
+      DATA.sunrise = new Date(data.sys.sunrise * 1000).toLocaleDateString(
+        'en-RU',
+        {
+          weekday: 'long',
+          month: 'long',
+          day: 'numeric',
+          hour: 'numeric',
+          minute: 'numeric',
+          timeZoneName: 'short',
+          timeZone: 'Europe/Moscow',
+        }
+      );
+      DATA.sunset = new Date(data.sys.sunset * 1000).toLocaleDateString(
+        'en-RU',
+        {
+          weekday: 'long',
+          month: 'long',
+          day: 'numeric',
+          hour: 'numeric',
+          minute: 'numeric',
+          timeZoneName: 'short',
+          timeZone: 'Europe/Moscow',
+        }
+      );
     });
 }
 

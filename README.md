@@ -20,8 +20,8 @@
 <img alt="Postman" width="40px" src="https://logowiki.net/uploads/logo/p/postman.svg"/>
 
 <h2>
-Today is Friday, September 24, 5:54 PM GMT+3.
-Today's temperature in <b>Kazan: 9°C</b>
+Today is Tuesday, September 28, 12:33 AM GMT+3.
+Today's weather in <b>Kazan: 5°C and  </b>
 </h2>
 
 <h2>Reach me at:</h2>
