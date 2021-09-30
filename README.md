@@ -20,8 +20,9 @@
 <img alt="Postman" width="40px" src="https://logowiki.net/uploads/logo/p/postman.svg"/>
 
 <h2>
-Today is Tuesday, September 28, 12:55 AM GMT+3.
-Today's weather in <b>Kazan: 5°C and  </b>
+Today is Wednesday, September 29, 7:27 PM GMT+3.
+Today's weather in <b>Kazan</b>: <b>7°C</b> and <b>Rain.</b> 
+Sunrise is at <b>Wednesday, September 29, 5:42 AM GMT+3</b> and sunset is at <b>Wednesday, September 29, 5:25 PM GMT+3</b>. The lenght of the day is <b>11 hours and 43 minutes</b>.
 </h2>
 
 <h2>Reach me at:</h2>

@@ -2,7 +2,6 @@ import Mustache from 'mustache';
 import fs from 'fs';
 import fetch from 'node-fetch';
 import dotenv from 'dotenv';
-import moment from 'moment';
 dotenv.config();
 
 const MUSTACHE_MAIN_DIR = './main.mustache';
@@ -27,10 +26,25 @@ async function setWeatherInformation() {
   )
     .then((response) => response.json())
     .then((data) => {
-      console.log(data);
+      const weatherDescription = data.weather.map((obj) => {
+        const value = Object.values(obj.main).join('');
+        return value;
+      });
+      console.log(weatherDescription);
+
+      // console.log(weatherDescr);
+      // const main = data.weather.main;
+      // console.log(data.weather);
+      // const cond = data.weather;
+      // console.log(cond);
+      // console.log(cond[main]);
+
       weatherData.weather = Math.round(data.main.temp);
-      weatherData.weatherDescriptiom = data.weather.main;
-      moment().subtract(1, 'days');
+      weatherData.weatherDescription = weatherDescription;
+      weatherData.dayTimeLength = data.sys.sunset - data.sys.sunrise;
+      weatherData.hours = Math.floor(weatherData.dayTimeLength / 3600) % 24;
+      weatherData.minutes = Math.floor(weatherData.dayTimeLength / 60) % 60;
+
       weatherData.sunrise = new Date(
         data.sys.sunrise * 1000
       ).toLocaleDateString('en-RU', {
@@ -54,12 +68,6 @@ async function setWeatherInformation() {
           timeZone: 'Europe/Moscow',
         }
       );
-      weatherData.time = data.sys.sunset - data.sys.sunrise;
-
-      const hours = Math.floor(weatherData.time / 3600) % 24;
-      const minutes = Math.floor(weatherData.time / 60) % 60;
-      console.log('calculated hours', hours, ' mins ', minutes);
-      console.log(moment(weatherData.time * 1000).format('hh:mm:ss'));
     });
 }
 
