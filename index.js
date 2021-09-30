@@ -13,6 +13,7 @@ let weatherData = {
     weekday: 'long',
     month: 'long',
     day: 'numeric',
+    hour12: false,
     hour: 'numeric',
     minute: 'numeric',
     timeZoneName: 'short',
@@ -26,44 +27,30 @@ async function setWeatherInformation() {
   )
     .then((response) => response.json())
     .then((data) => {
-      const weatherDescription = data.weather.map((obj) => {
+      weatherData.weatherDescription = data.weather.map((obj) => {
         const value = Object.values(obj.main).join('');
         return value;
       });
-      console.log(weatherDescription);
-
-      // console.log(weatherDescr);
-      // const main = data.weather.main;
-      // console.log(data.weather);
-      // const cond = data.weather;
-      // console.log(cond);
-      // console.log(cond[main]);
 
       weatherData.weather = Math.round(data.main.temp);
-      weatherData.weatherDescription = weatherDescription;
+
       weatherData.dayTimeLength = data.sys.sunset - data.sys.sunrise;
       weatherData.hours = Math.floor(weatherData.dayTimeLength / 3600) % 24;
       weatherData.minutes = Math.floor(weatherData.dayTimeLength / 60) % 60;
 
       weatherData.sunrise = new Date(
         data.sys.sunrise * 1000
-      ).toLocaleDateString('en-RU', {
-        weekday: 'long',
-        month: 'long',
-        day: 'numeric',
+      ).toLocaleTimeString('ru-RU', {
         hour: 'numeric',
         minute: 'numeric',
         timeZoneName: 'short',
         timeZone: 'Europe/Moscow',
       });
-      weatherData.sunset = new Date(data.sys.sunset * 1000).toLocaleDateString(
-        'en-RU',
+      weatherData.sunset = new Date(data.sys.sunset * 1000).toLocaleTimeString(
+        'ru-RU',
         {
-          weekday: 'long',
-          month: 'long',
-          day: 'numeric',
-          hour: 'numeric',
-          minute: 'numeric',
+          hour: '2-digit',
+          minute: '2-digit',
           timeZoneName: 'short',
           timeZone: 'Europe/Moscow',
         }

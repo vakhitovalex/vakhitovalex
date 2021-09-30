@@ -20,9 +20,9 @@
 <img alt="Postman" width="40px" src="https://logowiki.net/uploads/logo/p/postman.svg"/>
 
 <h2>
-Today is Wednesday, September 29, 7:27 PM GMT+3.
-Today's weather in <b>Kazan</b>: <b>7°C</b> and <b>Rain.</b> 
-Sunrise is at <b>Wednesday, September 29, 5:42 AM GMT+3</b> and sunset is at <b>Wednesday, September 29, 5:25 PM GMT+3</b>. The lenght of the day is <b>11 hours and 43 minutes</b>.
+<p>Today is Thursday, September 30, 14:11 GMT+3.</p>
+<p>Today's weather in <b>Kazan</b>: <b>9°C</b> and <b>Clouds.</b> </p>
+<p>Sunrise is at <b>05:44 GMT+3</b> and sunset is at <b>17:22 GMT+3</b>. The lenght of the day is <b>11 hours and 38 minutes</b>.</p>
 </h2>
 
 <h2>Reach me at:</h2>
@@ -32,4 +32,4 @@ Sunrise is at <b>Wednesday, September 29, 5:42 AM GMT+3</b> and sunset is at <b>
 <a href="https://linkedin.com/in/alex-vakhitov" target="blank"><img src="https://content.linkedin.com/content/dam/me/business/en-us/amp/brand-site/v2/bg/LI-Bug.svg.original.svg" alt="alex's linkedin page" height="30" width="40" /></a>
 </p>
 
-
+<h3>My GitHub page is automatically generated every 6 hours with the help of <a href="https://github.com/features/actions"> GitHub Actions</a>.</h3>
