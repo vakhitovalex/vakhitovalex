@@ -1,0 +1,29 @@
+{
+  "type": "module",
+  "name": "vakhitovalex",
+  "version": "1.0.0",
+  "description": "<!-- **vakhitovalex/vakhitovalex** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vakhitovalex/vakhitovalex.git"
+  },
+  "author": "Alex V",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vakhitovalex/vakhitovalex/issues"
+  },
+  "homepage": "https://github.com/vakhitovalex/vakhitovalex#readme",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "moment": "^2.29.1",
+    "mustache": "^4.2.0",
+    "node-fetch": "^3.0.0"
+  },
+  "devDependencies": {
+    "dotenv": "^10.0.0"
+  }
+}
