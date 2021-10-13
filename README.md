@@ -1,5 +1,5 @@
 <h1> 👋 Hi there, I'm Alex! 
-<br> I'm currently studying AI in Kazan Federal University, Russia. 
+<br> ⚗️ I'm currently studying Computer Science in 🇷🇺 Kazan Federal University, Russia. 
 </h1>
 
 <h2>⌨ Languages and Tools:</h2> 
@@ -30,9 +30,8 @@
 </p>
 
 <h3>
-<p>Today is Tuesday, October 12, 23:52 GMT+3.</p>
-<p>Today's weather in <b>Kazan</b>: <b>5°C</b> and <b>Clouds.</b> </p>
-<p>Sunrise is at <b>06:07 GMT+3</b> and sunset is at <b>16:51 GMT+3</b>. The lenght of the day is <b>10 hours and 43 minutes</b>.</p>
-</h3>
-
-<h3>🦦My GitHub page is automatically generated every 6 hours with the help of <a href="https://github.com/features/actions"> GitHub Actions</a>.🦦</h3>
+Today is Wednesday, October 13, 23:56 GMT+3.
+<br>Today's weather in <b>Kazan</b>: <b>8°C</b> and <b>Clouds.</b>
+<br>Sunrise is at <b>06:09 GMT+3</b> and sunset is at <b>16:49 GMT+3</b>. The lenght of the day is <b>10 hours and 39 minutes</b>.
+<br>
+🦦My GitHub page is automatically generated every 6 hours with the help of <a href="https://github.com/features/actions"> GitHub Actions</a>.</h3>
