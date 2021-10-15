@@ -1,9 +1,11 @@
-<h1> 👋 Hi there, I'm Alex! 
-<br> ⚗️ I'm currently studying Computer Science in 🇷🇺 Kazan Federal University, Russia. 
-</h1>
+<body align="center">
+<h2> 👋 Hello, world!</h2>
 
-<h2>⌨ Languages and Tools:</h2> 
-<p align="left">
+I'm Alex! Nice to meet you! <br>
+⚗️ I'm currently studying Computer Science in 🇷🇺 Kazan Federal University, Russia. 
+
+
+<h3>⌨ Languages I'm currently working with:</h3> 
 <img alt="HTML" width="40px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg"/>
 <img alt="CSS" width="40px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg"/>
 <img alt="JavaScript" width="40px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"/>
@@ -17,9 +19,13 @@
 <img alt="Express" width="40px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original.svg"/>
 <img alt="Postman" width="40px" src="https://logowiki.net/uploads/logo/p/postman.svg"/>
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=vakhitovalex&bg_color=0,757f9a,afc0df&title_color=383535&text_color=383535)
 
-![Alex's GitHub stats](https://github-readme-stats.vercel.app/api?username=vakhitovalex&count_private=true&show_icons=true&bg_color=0,757f9a,afc0df&title_color=383535&text_color=383535&hide=stars,issues,contribs&icon_color=383535)
+<a href="https://github.com/vakhitovalex">
+  <img align="center" src="https://github-readme-stats.vercel.app/api?username=vakhitovalex&count_private=true&show_icons=true&bg_color=0,1c92d2,f2fcfe&title_color=383535&text_color=383535&hide=stars,issues,contribs&icon_color=383535" />
+</a>
+<a href="https://github.com/vakhitovalex">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=vakhitovalex&layout=compact&bg_color=0,f2fcfe,1c92d2&title_color=383535&text_color=383535" />
+</a>
 
 
 <h3>📱 Reach me at:</h3>
@@ -29,9 +35,10 @@
 <a href="https://linkedin.com/in/alex-vakhitov" target="blank"><img src="https://content.linkedin.com/content/dam/me/business/en-us/amp/brand-site/v2/bg/LI-Bug.svg.original.svg" alt="alex's linkedin page" height="30" width="40" /></a>
 </p>
 
-<h3>
-Today is Wednesday, October 13, 23:56 GMT+3.
-<br>Today's weather in <b>Kazan</b>: <b>8°C</b> and <b>Clouds.</b>
-<br>Sunrise is at <b>06:09 GMT+3</b> and sunset is at <b>16:49 GMT+3</b>. The lenght of the day is <b>10 hours and 39 minutes</b>.
+
+<p>Today is Friday, October 15, 16:38 GMT+3.
+<br>Today's weather in <b>Kazan</b>: <b>8°C</b> and <b>Rain.</b>
+<br>Sunrise is at <b>06:14 GMT+3</b> and sunset is at <b>16:44 GMT+3</b>. The lenght of the day is <b>10 hours and 30 minutes</b>.</p>
 <br>
-🦦My GitHub page is automatically generated every 6 hours with the help of <a href="https://github.com/features/actions"> GitHub Actions</a>.</h3>
+My GitHub Readme page is automatically generated every 6 hours with the help of <a href="https://github.com/features/actions"> GitHub Actions</a>.🦦
+</body>
