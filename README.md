@@ -23,10 +23,10 @@ I'm currently studying Computer Science in 🇷🇺 Kazan Federal University, Ru
 
 <div class="github-stats">
 <a href="https://github.com/vakhitovalex" target="_blank">
-<img align="center" height="150px"  src="https://github-readme-stats.vercel.app/api/top-langs/?username=vakhitovalex&layout=compact&bg_color=0,f2fcfe,1c92d2&title_color=383535&text_color=383535" />
+<img align="center" height="135px"  src="https://github-readme-stats.vercel.app/api/top-langs/?username=vakhitovalex&layout=compact&bg_color=0,f2fcfe,1c92d2&title_color=383535&text_color=383535" />
 </a>
 <a href="https://github.com/vakhitovalex" target="_blank">
-  <img align="center" height="150px"  src="https://github-readme-stats.vercel.app/api?username=vakhitovalex&count_private=true&show_icons=true&bg_color=0,1c92d2,f2fcfe&title_color=383535&text_color=383535&hide=stars,issues,contribs&icon_color=383535" />
+  <img align="center" height="135px"  src="https://github-readme-stats.vercel.app/api?username=vakhitovalex&count_private=true&show_icons=true&bg_color=0,1c92d2,f2fcfe&title_color=383535&text_color=383535&hide=stars,issues,contribs&icon_color=383535" />
 </a>
 <br>
 </div>       
