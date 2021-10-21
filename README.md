@@ -4,7 +4,7 @@
 I'm Alex! Nice to meet you! <br>
 I'm currently studying Computer Science in 🇷🇺 Kazan Federal University, Russia. 
 </p>
-<h3>Languages I'm currently working with:</h3> 
+<h3>Languages and tools I'm currently working with:</h3> 
 <p>
 <img alt="HTML" width="40px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg"/>
 <img alt="CSS" width="40px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg"/>
@@ -39,9 +39,9 @@ I'm currently studying Computer Science in 🇷🇺 Kazan Federal University, Ru
 <br>
 </p>
 
-<p>Today is Friday, October 15, 17:54 GMT+3.
-<br>Today's weather in <b>Kazan</b>: <b>8°C</b> and <b>Clouds.</b>
-<br>Sunrise is at <b>06:14 GMT+3</b> and sunset is at <b>16:44 GMT+3</b>. The lenght of the day is <b>10 hours and 30 minutes</b>.</p>
+<p>Today is Thursday, October 21, 22:47 GMT+3.
+<br>Today's weather in <b>Kazan</b>: <b>9°C</b> and <b>Clouds.</b>
+<br>Sunrise is at <b>06:26 GMT+3</b> and sunset is at <b>16:29 GMT+3</b>. The lenght of the day is <b>10 hours and 3 minutes</b>.</p>
 <br>
 <p></p>My GitHub Readme page is automatically generated every 6 hours with the help of <a href="https://github.com/features/actions" target="_blank" > GitHub Actions :octocat:</a>.</p>
 </div>
