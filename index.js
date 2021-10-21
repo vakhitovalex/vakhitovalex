@@ -27,8 +27,15 @@ async function setWeatherInformation() {
   )
     .then((response) => response.json())
     .then((data) => {
+      weatherData.weatherEmoji = '';
       weatherData.weatherDescription = data.weather.map((obj) => {
         const value = Object.values(obj.main).join('');
+        console.log(value);
+        switch (value) {
+          case 'Clouds':
+            weatherData.weatherEmoji = ':cloud:';
+            break;
+        }
         return value;
       });
 
