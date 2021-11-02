@@ -75,6 +75,14 @@ async function setWeatherInformation() {
     });
 }
 
+async function setRecentlyPlayedMusic() {
+  await fetch(
+    'https://api.spotify.com/v1/me/player/recently-played?limit=5&after=1635792676'
+  )
+    .then((response) => response.json())
+    .then((musicData) => console.log(musicData));
+}
+
 function generateReadMe() {
   fs.readFile(MUSTACHE_MAIN_DIR, (err, data) => {
     if (err) throw err;
@@ -87,6 +95,7 @@ async function action() {
   //Fetch Weather
   await setWeatherInformation();
   await generateReadMe();
+  await setRecentlyPlayedMusic();
 }
 
 action();
