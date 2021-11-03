@@ -6,8 +6,9 @@ dotenv.config();
 
 const MUSTACHE_MAIN_DIR = './main.mustache';
 const OPEN_WEATHER_MAP_KEY = process.env.OPEN_WEATHER_MAP_KEY;
+const token = process.env.spotifyToken;
 const weather_url = process.env.WEATHER_URL;
-let weatherData = {
+let infoData = {
   name: 'Alex',
   date: new Date().toLocaleDateString('en-RU', {
     weekday: 'long',
@@ -27,43 +28,44 @@ async function setWeatherInformation() {
   )
     .then((response) => response.json())
     .then((data) => {
-      weatherData.weatherDescription = data.weather.map((obj) => {
+      infoData.weatherDescription = data.weather.map((obj) => {
         const value = Object.values(obj.main).join('');
         console.log(value);
         switch (value) {
           case 'Clear':
-            weatherData.weatherEmoji = ':sunny:';
+            infoData.weatherEmoji = ':sunny:';
             break;
           case 'Clouds':
-            weatherData.weatherEmoji = ':cloud:';
+            infoData.weatherEmoji = ':cloud:';
             break;
           case 'Rain':
-            weatherData.weatherEmoji = ':cloud_with_rain:';
+            infoData.weatherEmoji = ':cloud_with_rain:';
             break;
           case 'Snow':
-            weatherData.weatherEmoji = ':cloud_with_snow:';
+            infoData.weatherEmoji = ':cloud_with_snow:';
             break;
           default:
-            weatherData.weatherEmoji = '';
+            infoData.weatherEmoji = '';
         }
         return value;
       });
 
-      weatherData.weather = Math.round(data.main.temp);
+      infoData.weather = Math.round(data.main.temp);
 
-      weatherData.dayTimeLength = data.sys.sunset - data.sys.sunrise;
-      weatherData.hours = Math.floor(weatherData.dayTimeLength / 3600) % 24;
-      weatherData.minutes = Math.floor(weatherData.dayTimeLength / 60) % 60;
+      infoData.dayTimeLength = data.sys.sunset - data.sys.sunrise;
+      infoData.hours = Math.floor(infoData.dayTimeLength / 3600) % 24;
+      infoData.minutes = Math.floor(infoData.dayTimeLength / 60) % 60;
 
-      weatherData.sunrise = new Date(
-        data.sys.sunrise * 1000
-      ).toLocaleTimeString('ru-RU', {
-        hour: 'numeric',
-        minute: 'numeric',
-        timeZoneName: 'short',
-        timeZone: 'Europe/Moscow',
-      });
-      weatherData.sunset = new Date(data.sys.sunset * 1000).toLocaleTimeString(
+      infoData.sunrise = new Date(data.sys.sunrise * 1000).toLocaleTimeString(
+        'ru-RU',
+        {
+          hour: 'numeric',
+          minute: 'numeric',
+          timeZoneName: 'short',
+          timeZone: 'Europe/Moscow',
+        }
+      );
+      infoData.sunset = new Date(data.sys.sunset * 1000).toLocaleTimeString(
         'ru-RU',
         {
           hour: '2-digit',
@@ -77,16 +79,28 @@ async function setWeatherInformation() {
 
 async function setRecentlyPlayedMusic() {
   await fetch(
-    'https://api.spotify.com/v1/me/player/recently-played?limit=5&after=1635792676'
+    'https://api.spotify.com/v1/me/player/recently-played?limit=10&after=1624892230',
+    {
+      headers: {
+        Accept: 'application / json',
+        'Content-Type': 'application/json',
+        Authorization: `Bearer ${token}`,
+      },
+    }
   )
     .then((response) => response.json())
-    .then((musicData) => console.log(musicData));
+    .then((musicData) => {
+      console.log(musicData.items[0]);
+      infoData.song1 = musicData.items[0].track.name;
+      infoData.songName2 = musicData.items[1].track.name;
+      infoData.songName3 = musicData.items[2].track.name;
+    });
 }
 
 function generateReadMe() {
   fs.readFile(MUSTACHE_MAIN_DIR, (err, data) => {
     if (err) throw err;
-    const output = Mustache.render(data.toString(), weatherData);
+    const output = Mustache.render(data.toString(), infoData);
     fs.writeFileSync('README.md', output);
   });
 }
@@ -94,8 +108,8 @@ function generateReadMe() {
 async function action() {
   //Fetch Weather
   await setWeatherInformation();
-  await generateReadMe();
   await setRecentlyPlayedMusic();
+  await generateReadMe();
 }
 
 action();

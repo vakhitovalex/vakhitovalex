@@ -39,9 +39,10 @@ I'm currently studying Computer Science in 🇷🇺 Kazan Federal University, Ru
 <br>
 </p>
 
-<p>Today is Friday, October 22, 01:15 GMT+3.
-<br>Today's weather in <b>Kazan</b>: <b>9°C</b> and <b>Clouds:cloud:.</b>
-<br>Sunrise is at <b>06:28 GMT+3</b> and sunset is at <b>16:27 GMT+3</b>. The lenght of the day is <b>9 hours and 58 minutes</b>.</p>
+<p>Today is Wednesday, November 3, 17:21 GMT+3.
+<br>Today's weather in <b>Kazan</b>: <b>1°C</b> and <b>Clouds:cloud:.</b>
+<br>Sunrise is at <b>06:53 GMT+3</b> and sunset is at <b>16:00 GMT+3</b>. The lenght of the day is <b>9 hours and 6 minutes</b>.</p>
 <br>
-<p></p>My GitHub Readme page is automatically generated every 6 hours with the help of <a href="https://github.com/features/actions" target="_blank" > GitHub Actions :octocat:</a>.</p>
+<p>What I recenlty listened in Spotify: <b>In This Shirt</b> </p>
+<p>My GitHub Readme page is automatically generated every 6 hours with the help of <a href="https://github.com/features/actions" target="_blank" > GitHub Actions :octocat:</a>.</p>
 </div>
