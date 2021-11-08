@@ -30,7 +30,7 @@ I'm currently studying Computer Science in 🇷🇺 Kazan Federal University, Ru
 </a>
 <br>
 </div>       
-</p>
+
 <h3>📱 Reach me at:</h3>
 <p>
 <a href="mailto:vakhitovalex@gmail.com" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Gmail_icon_%282020%29.svg" alt="alex's email" height="30" width="40" /></a>
@@ -39,10 +39,26 @@ I'm currently studying Computer Science in 🇷🇺 Kazan Federal University, Ru
 <br>
 </p>
 
-<p>Today is Wednesday, November 3, 17:21 GMT+3.
-<br>Today's weather in <b>Kazan</b>: <b>1°C</b> and <b>Clouds:cloud:.</b>
-<br>Sunrise is at <b>06:53 GMT+3</b> and sunset is at <b>16:00 GMT+3</b>. The lenght of the day is <b>9 hours and 6 minutes</b>.</p>
+<p>Today is Monday, November 8, 17:43 GMT+3.
+<br>Today's weather in <b>Kazan</b>: <b>5°C</b> and <b>Rain:cloud_with_rain:.</b>
+<br>Sunrise is at <b>07:04 GMT+3</b> and sunset is at <b>15:50 GMT+3</b>. The lenght of the day is <b>8 hours and 45 minutes</b>.</p>
 <br>
-<p>What I recenlty listened in Spotify: <b>In This Shirt</b> </p>
+<div class="music">
+  <p class="music__header">What I recenlty listened in Spotify:</p>
+  <div class="music__list" style="display: flex; justify-content: space-between">
+    <div class="music__song">
+    <img src=https:&#x2F;&#x2F;i.scdn.co&#x2F;image&#x2F;ab67616d00004851de8b47136cd4ace8bb6c49a3 alt="song cover" title="2021-11-03T11:21:46.628Z"></p>
+    <p> <b>ur all mine .</b> by <b>Hentai Xander</b></p>
+  </div>
+  <div class="music__song">
+    <img src=https:&#x2F;&#x2F;i.scdn.co&#x2F;image&#x2F;ab67616d0000485100ee85ec759d9cb6bf6ee579 alt="song cover" title="2021-11-03T11:21:46.628Z"></p>
+    <p> <b>in heat.</b> by <b>Hentai Xander</b></p>
+  </div>
+  <div class="music__song">
+    <img src=https:&#x2F;&#x2F;i.scdn.co&#x2F;image&#x2F;ab67616d00004851003f81b1f4246362638e682d alt="song cover" title="2021-11-03T11:21:46.628Z"></p>
+    <p> <b>Dog Days Are Over</b> by <b>Florence + The Machine</b></p>
+  </div>
+  </div>
+</div>
 <p>My GitHub Readme page is automatically generated every 6 hours with the help of <a href="https://github.com/features/actions" target="_blank" > GitHub Actions :octocat:</a>.</p>
 </div>

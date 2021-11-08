@@ -90,10 +90,37 @@ async function setRecentlyPlayedMusic() {
   )
     .then((response) => response.json())
     .then((musicData) => {
-      console.log(musicData.items[0]);
-      infoData.song1 = musicData.items[0].track.name;
-      infoData.songName2 = musicData.items[1].track.name;
-      infoData.songName3 = musicData.items[2].track.name;
+      console.log(musicData.items[1].track.artists);
+
+      // console.log(musicData.items[0].track.album.artists.name);
+      // console.log(musicData.items[0].track.artists[0].name);
+      // console.log(musicData.items[0].track.album.images[1].url);
+      // console.log(musicData.items[0].track.images);
+
+      infoData.song1 = {
+        name: musicData.items[0].track.name,
+        artist: musicData.items[0].track.artists[0].name,
+        image: musicData.items[0].track.album.images[2].url,
+        playedTime: musicData.items[0].played_at,
+      };
+      infoData.song2 = {
+        name: musicData.items[1].track.name,
+        artist: musicData.items[1].track.artists[0].name,
+        image: musicData.items[1].track.album.images[2].url,
+        playedTime: musicData.items[0].played_at,
+      };
+      infoData.song3 = {
+        name: musicData.items[2].track.name,
+        artist: musicData.items[2].track.artists[0].name,
+        image: musicData.items[2].track.album.images[2].url,
+        playedTime: musicData.items[0].played_at,
+      };
+
+      // console.log(infoData.song1);
+
+      // infoData.song1 = { musicData.items[0].track.name, musicData.items[0].track.album.artists.name, musicData.items[0].track.album.images[1].url };
+      // infoData.songName2 = musicData.items[1].track.name;
+      // infoData.songName3 = musicData.items[2].track.name;
     });
 }
 

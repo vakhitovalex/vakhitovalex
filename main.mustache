@@ -30,7 +30,7 @@ I'm currently studying Computer Science in 🇷🇺 Kazan Federal University, Ru
 </a>
 <br>
 </div>       
-</p>
+
 <h3>📱 Reach me at:</h3>
 <p>
 <a href="mailto:vakhitovalex@gmail.com" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Gmail_icon_%282020%29.svg" alt="alex's email" height="30" width="40" /></a>
@@ -43,6 +43,22 @@ I'm currently studying Computer Science in 🇷🇺 Kazan Federal University, Ru
 <br>Today's weather in <b>Kazan</b>: <b>{{weather}}°C</b> and <b>{{weatherDescription}}{{weatherEmoji}}.</b>
 <br>Sunrise is at <b>{{sunrise}}</b> and sunset is at <b>{{sunset}}</b>. The lenght of the day is <b>{{hours}} hours and {{minutes}} minutes</b>.</p>
 <br>
-<p>What I recenlty listened in Spotify: <b>{{song1}}</b> </p>
+<div class="music">
+  <p class="music__header">What I recenlty listened in Spotify:</p>
+  <div class="music__list" style="display: flex; justify-content: space-between">
+    <div class="music__song">
+    <img src={{song1.image}} alt="song cover" title="{{song1.playedTime}}"></p>
+    <p> <b>{{song1.name}}</b> by <b>{{song1.artist}}</b></p>
+  </div>
+  <div class="music__song">
+    <img src={{song2.image}} alt="song cover" title="{{song2.playedTime}}"></p>
+    <p> <b>{{song2.name}}</b> by <b>{{song2.artist}}</b></p>
+  </div>
+  <div class="music__song">
+    <img src={{song3.image}} alt="song cover" title="{{song3.playedTime}}"></p>
+    <p> <b>{{song3.name}}</b> by <b>{{song3.artist}}</b></p>
+  </div>
+  </div>
+</div>
 <p>My GitHub Readme page is automatically generated every 6 hours with the help of <a href="https://github.com/features/actions" target="_blank" > GitHub Actions :octocat:</a>.</p>
 </div>
