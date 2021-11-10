@@ -113,52 +113,54 @@
   </p>
 
   <p>
-    Today is Monday, November 8, 18:10 GMT+3. <br />Today's weather in <b>Kazan</b>:
-    <b>5°C</b> and
-    <b>Clouds:cloud:.</b> <br />Sunrise is at
-    <b>07:04 GMT+3</b> and sunset is at <b>15:50 GMT+3</b
+    Today is Wednesday, November 10, 18:40 GMT+3. <br />Today's weather in <b>Kazan</b>:
+    <b>-6°C</b> and
+    <b>Clear:sunny:.</b> <br />Sunrise is at
+    <b>07:08 GMT+3</b> and sunset is at <b>15:46 GMT+3</b
     >. The lenght of the day is
-    <b>8 hours and 45 minutes</b>.
+    <b>8 hours and 37 minutes</b>.
   </p>
   <br />
   <div class="music">
-    <p class="music__header">What I recenlty listened in Spotify:</p>
+    <p class="music__header">
+      What I recenlty listened in Spotify to focus on my tasks:
+    </p>
     <div
       class="music__list"
       style="display: flex; justify-content: space-evenly; width: 550px"
     >
       <div class="music__song" style="margin: 0 40px">
         <img
-          src="https:&#x2F;&#x2F;i.scdn.co&#x2F;image&#x2F;ab67616d00004851de8b47136cd4ace8bb6c49a3"
+          src="https:&#x2F;&#x2F;i.scdn.co&#x2F;image&#x2F;ab67616d00004851fd220b07117400ccbc85ed96"
           alt="song cover"
-          title="2021-11-03T11:21:46.628Z"
+          title=""
         />
         <p class="music__song-title">
-          <b>ur all mine .</b>
+          <b>One Summer Day</b>
         </p>
-        <p class="music__song-artist">Hentai Xander</p>
+        <p class="music__song-artist">Joe Hisaishi</p>
       </div>
       <div class="music__song">
         <img
-          src="https:&#x2F;&#x2F;i.scdn.co&#x2F;image&#x2F;ab67616d0000485100ee85ec759d9cb6bf6ee579"
+          src="https:&#x2F;&#x2F;i.scdn.co&#x2F;image&#x2F;ab67616d00004851cc3590d335c1ffe78af53865"
           alt="song cover"
-          title="2021-11-03T11:21:46.628Z"
+          title=""
         />
         <p class="music__song-title">
-          <b>in heat.</b>
+          <b>Dezen killen grond</b>
         </p>
-        <p class="music__song-artist">Hentai Xander</p>
+        <p class="music__song-artist">Jan Swerts</p>
       </div>
       <div class="music__song">
         <img
-          src="https:&#x2F;&#x2F;i.scdn.co&#x2F;image&#x2F;ab67616d00004851003f81b1f4246362638e682d"
+          src="https:&#x2F;&#x2F;i.scdn.co&#x2F;image&#x2F;ab67616d0000485118a83f747b59018eeba12b88"
           alt="song cover"
-          title="2021-11-03T11:21:46.628Z"
+          title=""
         />
         <p class="music__song-title">
-          <b>Dog Days Are Over</b>
+          <b>Le Cygne</b>
         </p>
-        <p class="music__song-artist">Florence + The Machine</p>
+        <p class="music__song-artist">Camille Saint-Saëns</p>
       </div>
     </div>
     <p>
