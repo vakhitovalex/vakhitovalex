@@ -113,12 +113,12 @@
   </p>
 
   <p>
-    Today is Wednesday, November 10, 18:40 GMT+3. <br />Today's weather in <b>Kazan</b>:
-    <b>-6°C</b> and
-    <b>Clear:sunny:.</b> <br />Sunrise is at
-    <b>07:08 GMT+3</b> and sunset is at <b>15:46 GMT+3</b
+    Today is Thursday, November 11, 23:51 GMT+3. <br />Today's weather in <b>Kazan</b>:
+    <b>0°C</b> and
+    <b>Clouds:cloud:.</b> <br />Sunrise is at
+    <b>07:10 GMT+3</b> and sunset is at <b>15:44 GMT+3</b
     >. The lenght of the day is
-    <b>8 hours and 37 minutes</b>.
+    <b>8 hours and 33 minutes</b>.
   </p>
   <br />
   <div class="music">
@@ -131,36 +131,36 @@
     >
       <div class="music__song" style="margin: 0 40px">
         <img
-          src="https:&#x2F;&#x2F;i.scdn.co&#x2F;image&#x2F;ab67616d00004851fd220b07117400ccbc85ed96"
+          src="https:&#x2F;&#x2F;i.scdn.co&#x2F;image&#x2F;ab67616d0000485163c5585c7c8cebbdce49b933"
           alt="song cover"
           title=""
         />
         <p class="music__song-title">
-          <b>One Summer Day</b>
+          <b>Borderland Sorrows</b>
         </p>
-        <p class="music__song-artist">Joe Hisaishi</p>
+        <p class="music__song-artist">Slow Meadow</p>
       </div>
       <div class="music__song">
         <img
-          src="https:&#x2F;&#x2F;i.scdn.co&#x2F;image&#x2F;ab67616d00004851cc3590d335c1ffe78af53865"
+          src="https:&#x2F;&#x2F;i.scdn.co&#x2F;image&#x2F;ab67616d000048511fa74364ad8e411d81783933"
           alt="song cover"
           title=""
         />
         <p class="music__song-title">
-          <b>Dezen killen grond</b>
+          <b>Baleen Morning</b>
         </p>
-        <p class="music__song-artist">Jan Swerts</p>
+        <p class="music__song-artist">Balmorhea</p>
       </div>
       <div class="music__song">
         <img
-          src="https:&#x2F;&#x2F;i.scdn.co&#x2F;image&#x2F;ab67616d0000485118a83f747b59018eeba12b88"
+          src="https:&#x2F;&#x2F;i.scdn.co&#x2F;image&#x2F;ab67616d0000485144df4615f30bf50067f2e208"
           alt="song cover"
           title=""
         />
         <p class="music__song-title">
-          <b>Le Cygne</b>
+          <b>Mirrors</b>
         </p>
-        <p class="music__song-artist">Camille Saint-Saëns</p>
+        <p class="music__song-artist">Max Richter</p>
       </div>
     </div>
     <p>
