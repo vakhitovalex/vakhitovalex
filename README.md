@@ -113,12 +113,12 @@
   </p>
 
   <p>
-    Today is Thursday, November 11, 23:51 GMT+3. <br />Today's weather in <b>Kazan</b>:
-    <b>0°C</b> and
+    Today is Tuesday, November 16, 18:42 GMT+3. <br />Today's weather in <b>Kazan</b>:
+    <b>-3°C</b> and
     <b>Clouds:cloud:.</b> <br />Sunrise is at
-    <b>07:10 GMT+3</b> and sunset is at <b>15:44 GMT+3</b
+    <b>07:21 GMT+3</b> and sunset is at <b>15:35 GMT+3</b
     >. The lenght of the day is
-    <b>8 hours and 33 minutes</b>.
+    <b>8 hours and 14 minutes</b>.
   </p>
   <br />
   <div class="music">
@@ -131,36 +131,36 @@
     >
       <div class="music__song" style="margin: 0 40px">
         <img
-          src="https:&#x2F;&#x2F;i.scdn.co&#x2F;image&#x2F;ab67616d0000485163c5585c7c8cebbdce49b933"
+          src="https:&#x2F;&#x2F;i.scdn.co&#x2F;image&#x2F;ab67616d0000485166b985d8e3948d01be26e69c"
           alt="song cover"
           title=""
         />
         <p class="music__song-title">
-          <b>Borderland Sorrows</b>
+          <b>Be Thou My Vision</b>
         </p>
-        <p class="music__song-artist">Slow Meadow</p>
+        <p class="music__song-artist">Kendra Logozar</p>
       </div>
       <div class="music__song">
         <img
-          src="https:&#x2F;&#x2F;i.scdn.co&#x2F;image&#x2F;ab67616d000048511fa74364ad8e411d81783933"
+          src="https:&#x2F;&#x2F;i.scdn.co&#x2F;image&#x2F;ab67616d000048515aadca97917dd7442d82e420"
           alt="song cover"
           title=""
         />
         <p class="music__song-title">
-          <b>Baleen Morning</b>
+          <b>Mist on the Highlands</b>
         </p>
-        <p class="music__song-artist">Balmorhea</p>
+        <p class="music__song-artist">Pablo Carcamo</p>
       </div>
       <div class="music__song">
         <img
-          src="https:&#x2F;&#x2F;i.scdn.co&#x2F;image&#x2F;ab67616d0000485144df4615f30bf50067f2e208"
+          src="https:&#x2F;&#x2F;i.scdn.co&#x2F;image&#x2F;ab67616d00004851104c7602bccfdf0dbee308d2"
           alt="song cover"
           title=""
         />
         <p class="music__song-title">
-          <b>Mirrors</b>
+          <b>Solitude</b>
         </p>
-        <p class="music__song-artist">Max Richter</p>
+        <p class="music__song-artist">David Gómez</p>
       </div>
     </div>
     <p>
