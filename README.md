@@ -113,8 +113,8 @@
   </p>
 
   <p>
-    Today is Tuesday, November 16, 18:42 GMT+3. <br />Today's weather in <b>Kazan</b>:
-    <b>-3°C</b> and
+    Today is Tuesday, November 16, 20:05 GMT+3. <br />Today's weather in <b>Kazan</b>:
+    <b>-2°C</b> and
     <b>Clouds:cloud:.</b> <br />Sunrise is at
     <b>07:21 GMT+3</b> and sunset is at <b>15:35 GMT+3</b
     >. The lenght of the day is
@@ -131,36 +131,36 @@
     >
       <div class="music__song" style="margin: 0 40px">
         <img
-          src="https:&#x2F;&#x2F;i.scdn.co&#x2F;image&#x2F;ab67616d0000485166b985d8e3948d01be26e69c"
+          src=""
           alt="song cover"
           title=""
         />
         <p class="music__song-title">
-          <b>Be Thou My Vision</b>
+          <b></b>
         </p>
-        <p class="music__song-artist">Kendra Logozar</p>
+        <p class="music__song-artist"></p>
       </div>
       <div class="music__song">
         <img
-          src="https:&#x2F;&#x2F;i.scdn.co&#x2F;image&#x2F;ab67616d000048515aadca97917dd7442d82e420"
+          src=""
           alt="song cover"
           title=""
         />
         <p class="music__song-title">
-          <b>Mist on the Highlands</b>
+          <b></b>
         </p>
-        <p class="music__song-artist">Pablo Carcamo</p>
+        <p class="music__song-artist"></p>
       </div>
       <div class="music__song">
         <img
-          src="https:&#x2F;&#x2F;i.scdn.co&#x2F;image&#x2F;ab67616d00004851104c7602bccfdf0dbee308d2"
+          src=""
           alt="song cover"
           title=""
         />
         <p class="music__song-title">
-          <b>Solitude</b>
+          <b></b>
         </p>
-        <p class="music__song-artist">David Gómez</p>
+        <p class="music__song-artist"></p>
       </div>
     </div>
     <p>

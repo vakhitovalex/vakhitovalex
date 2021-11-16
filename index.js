@@ -3,14 +3,14 @@ import fs from 'fs';
 import fetch from 'node-fetch';
 import dotenv from 'dotenv';
 import request from 'request';
+
 dotenv.config();
 
 const MUSTACHE_MAIN_DIR = './main.mustache';
 const OPEN_WEATHER_MAP_KEY = process.env.OPEN_WEATHER_MAP_KEY;
-const token = process.env.spot;
-const weather_url = process.env.WEATHER_URL;
 const client_id = process.env.CLIENT_ID; // Your client id
 const client_secret = process.env.CLIENT_SECRET; // Your client secret
+const token = process.env.spot;
 
 let infoData = {
   name: 'Alex',
@@ -114,8 +114,11 @@ async function getToken() {
           const array = symbol.split('\n');
           array.splice(-1, 1, `spot=${token}`);
           const symbols = array.join('\n');
-          fs.writeFile('./.env', symbols, (err) => {
-            if (err) console.log(err);
+          fs.writeFileSync('./.env', symbols, (err) => {
+            if (err) {
+              console.log(err);
+            }
+            return;
           });
         });
       });
@@ -163,9 +166,10 @@ function generateReadMe() {
 }
 
 async function action() {
-  await getToken();
+  await getToken(() => {
+    setRecentlyPlayedMusic();
+  });
   await setWeatherInformation();
-  await setRecentlyPlayedMusic();
   await generateReadMe();
 }
 
