@@ -113,12 +113,12 @@
   </p>
 
   <p>
-    Today is Tuesday, November 16, 20:05 GMT+3. <br />Today's weather in <b>Kazan</b>:
-    <b>-2°C</b> and
+    Today is Wednesday, November 17, 13:49 GMT+3. <br />Today's weather in <b>Kazan</b>:
+    <b>1°C</b> and
     <b>Clouds:cloud:.</b> <br />Sunrise is at
-    <b>07:21 GMT+3</b> and sunset is at <b>15:35 GMT+3</b
+    <b>07:23 GMT+3</b> and sunset is at <b>15:34 GMT+3</b
     >. The lenght of the day is
-    <b>8 hours and 14 minutes</b>.
+    <b>8 hours and 11 minutes</b>.
   </p>
   <br />
   <div class="music">
@@ -131,36 +131,36 @@
     >
       <div class="music__song" style="margin: 0 40px">
         <img
-          src=""
+          src="https:&#x2F;&#x2F;i.scdn.co&#x2F;image&#x2F;ab67616d00004851fd30fb4685d9cc3a85e11427"
           alt="song cover"
           title=""
         />
         <p class="music__song-title">
-          <b></b>
+          <b>The Fledgling</b>
         </p>
-        <p class="music__song-artist"></p>
+        <p class="music__song-artist">Hudson Swan</p>
       </div>
       <div class="music__song">
         <img
-          src=""
+          src="https:&#x2F;&#x2F;i.scdn.co&#x2F;image&#x2F;ab67616d0000485148720360422db24a4d0234ae"
           alt="song cover"
           title=""
         />
         <p class="music__song-title">
-          <b></b>
+          <b>Northern Moon</b>
         </p>
-        <p class="music__song-artist"></p>
+        <p class="music__song-artist">Chris Bartels</p>
       </div>
       <div class="music__song">
         <img
-          src=""
+          src="https:&#x2F;&#x2F;i.scdn.co&#x2F;image&#x2F;ab67616d000048510f2dfcc59381e68da6b91a72"
           alt="song cover"
           title=""
         />
         <p class="music__song-title">
-          <b></b>
+          <b>Révérence: II</b>
         </p>
-        <p class="music__song-artist"></p>
+        <p class="music__song-artist">Philippe Paquet</p>
       </div>
     </div>
     <p>

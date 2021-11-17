@@ -3,14 +3,14 @@ import fs from 'fs';
 import fetch from 'node-fetch';
 import dotenv from 'dotenv';
 import request from 'request';
-
 dotenv.config();
 
 const MUSTACHE_MAIN_DIR = './main.mustache';
 const OPEN_WEATHER_MAP_KEY = process.env.OPEN_WEATHER_MAP_KEY;
+
+const weather_url = process.env.WEATHER_URL;
 const client_id = process.env.CLIENT_ID; // Your client id
 const client_secret = process.env.CLIENT_SECRET; // Your client secret
-const token = process.env.spot;
 
 let infoData = {
   name: 'Alex',
@@ -114,11 +114,9 @@ async function getToken() {
           const array = symbol.split('\n');
           array.splice(-1, 1, `spot=${token}`);
           const symbols = array.join('\n');
-          fs.writeFileSync('./.env', symbols, (err) => {
-            if (err) {
-              console.log(err);
-            }
-            return;
+          fs.writeFile('./.env', symbols, (err) => {
+            if (err) console.log(err);
+            else console.log(symbols);
           });
         });
       });
@@ -127,6 +125,9 @@ async function getToken() {
 }
 
 async function setRecentlyPlayedMusic() {
+  // await getToken(() => {
+  // setTimeout(resolve, 3000);
+  const token = process.env.spot;
   await fetch(
     'https://api.spotify.com/v1/playlists/37i9dQZF1DX7hmlhGsyxU0/tracks?market=RU&limit=3&offset=5',
     {
@@ -166,11 +167,12 @@ function generateReadMe() {
 }
 
 async function action() {
-  await getToken(() => {
-    setRecentlyPlayedMusic();
-  });
+  await getToken();
   await setWeatherInformation();
+  await setRecentlyPlayedMusic();
   await generateReadMe();
 }
+
+// setRecentlyPlayedMusic();
 
 action();
