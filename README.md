@@ -113,7 +113,7 @@
   </p>
 
   <p>
-    Today is Wednesday, November 17, 14:07 GMT+3. <br />Today's weather in <b>Kazan</b>:
+    Today is Wednesday, November 17, 14:26 GMT+3. <br />Today's weather in <b>Kazan</b>:
     <b>1°C</b> and
     <b>Clouds:cloud:.</b> <br />Sunrise is at
     <b>07:23 GMT+3</b> and sunset is at <b>15:34 GMT+3</b
@@ -121,54 +121,32 @@
     <b>8 hours and 11 minutes</b>.
   </p>
   <br />
-  <div class="music">
-    <p class="music__header">
-      What I recenlty listened in Spotify to focus on my tasks:
-    </p>
-    <div
-      class="music__list"
-      style="display: flex; flex-direction: row; justify-content: space-evenly"
-    >
-      <a href="https://spotify.com/">
-        <div class="music__song">
-          <img
-            src="https:&#x2F;&#x2F;i.scdn.co&#x2F;image&#x2F;ab67616d00004851fd30fb4685d9cc3a85e11427"
-            alt="song cover"
-            title=""
-          />
-          <p class="music__song-title">
-            <b>The Fledgling</b>
-          </p>
-          <p class="music__song-artist">Hudson Swan</p>
-        </div>
-      </a>
-      <a href="https://spotify.com/">
-        <div class="music__song">
-          <img
-            src="https:&#x2F;&#x2F;i.scdn.co&#x2F;image&#x2F;ab67616d0000485148720360422db24a4d0234ae"
-            alt="song cover"
-            title=""
-          />
-          <p class="music__song-title">
-            <b>Northern Moon</b>
-          </p>
-          <p class="music__song-artist">Chris Bartels</p>
-        </div>
-      </a>
-      <a href="https://spotify.com/">
-        <div class="music__song">
-          <img
-            src="https:&#x2F;&#x2F;i.scdn.co&#x2F;image&#x2F;ab67616d000048510f2dfcc59381e68da6b91a72"
-            alt="song cover"
-            title=""
-          />
-          <p class="music__song-title">
-            <b>Révérence: II</b>
-          </p>
-          <p class="music__song-artist">Philippe Paquet</p>
-        </div>
-      </a>
-    </div>
+  <p>What I recenlty listened in Spotify to focus on my tasks:</p>
+  <div>
+    <a href="https://spotify.com/">
+      <img
+        align="center"
+        src="https:&#x2F;&#x2F;i.scdn.co&#x2F;image&#x2F;ab67616d00004851fd30fb4685d9cc3a85e11427"
+        alt="song cover"
+        title="The Fledgling by Hudson Swan"
+      />
+    </a>
+    <a href="https://spotify.com/">
+      <img
+        align="center"
+        src="https:&#x2F;&#x2F;i.scdn.co&#x2F;image&#x2F;ab67616d0000485148720360422db24a4d0234ae"
+        alt="song cover"
+        title="Northern Moon by Chris Bartels"
+      />
+    </a>
+    <a href="https://spotify.com/">
+      <img
+        align="center"
+        src="https:&#x2F;&#x2F;i.scdn.co&#x2F;image&#x2F;ab67616d000048510f2dfcc59381e68da6b91a72"
+        alt="song cover"
+        title="Révérence: II by Philippe Paquet"
+      />
+    </a>
   </div>
 
   <p>

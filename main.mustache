@@ -121,54 +121,32 @@
     <b>{{ hours }} hours and {{ minutes }} minutes</b>.
   </p>
   <br />
-  <div class="music">
-    <p class="music__header">
-      What I recenlty listened in Spotify to focus on my tasks:
-    </p>
-    <div
-      class="music__list"
-      style="display: flex; flex-direction: row; justify-content: space-evenly"
-    >
-      <a href="https://spotify.com/">
-        <div class="music__song">
-          <img
-            src="{{ song1.image }}"
-            alt="song cover"
-            title="{{ song1.playedTime }}"
-          />
-          <p class="music__song-title">
-            <b>{{ song1.name }}</b>
-          </p>
-          <p class="music__song-artist">{{ song1.artist }}</p>
-        </div>
-      </a>
-      <a href="https://spotify.com/">
-        <div class="music__song">
-          <img
-            src="{{ song2.image }}"
-            alt="song cover"
-            title="{{ song2.playedTime }}"
-          />
-          <p class="music__song-title">
-            <b>{{ song2.name }}</b>
-          </p>
-          <p class="music__song-artist">{{ song2.artist }}</p>
-        </div>
-      </a>
-      <a href="https://spotify.com/">
-        <div class="music__song">
-          <img
-            src="{{ song3.image }}"
-            alt="song cover"
-            title="{{ song3.playedTime }}"
-          />
-          <p class="music__song-title">
-            <b>{{ song3.name }}</b>
-          </p>
-          <p class="music__song-artist">{{ song3.artist }}</p>
-        </div>
-      </a>
-    </div>
+  <p>What I recenlty listened in Spotify to focus on my tasks:</p>
+  <div>
+    <a href="https://spotify.com/">
+      <img
+        align="center"
+        src="{{ song1.image }}"
+        alt="song cover"
+        title="{{ song1.name }} by {{ song1.artist }}"
+      />
+    </a>
+    <a href="https://spotify.com/">
+      <img
+        align="center"
+        src="{{ song2.image }}"
+        alt="song cover"
+        title="{{ song2.name }} by {{ song2.artist }}"
+      />
+    </a>
+    <a href="https://spotify.com/">
+      <img
+        align="center"
+        src="{{ song3.image }}"
+        alt="song cover"
+        title="{{ song3.name }} by {{ song3.artist }}"
+      />
+    </a>
   </div>
 
   <p>
