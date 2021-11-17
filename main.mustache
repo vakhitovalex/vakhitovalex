@@ -127,48 +127,55 @@
     </p>
     <div
       class="music__list"
-      style="display: flex; justify-content: space-evenly"
+      style="display: flex; flex-direction: row; justify-content: space-evenly"
     >
-      <div class="music__song" style="margin: 0 40px">
-        <img
-          src="{{ song1.image }}"
-          alt="song cover"
-          title="{{ song1.playedTime }}"
-        />
-        <p class="music__song-title">
-          <b>{{ song1.name }}</b>
-        </p>
-        <p class="music__song-artist">{{ song1.artist }}</p>
-      </div>
-      <div class="music__song">
-        <img
-          src="{{ song2.image }}"
-          alt="song cover"
-          title="{{ song2.playedTime }}"
-        />
-        <p class="music__song-title">
-          <b>{{ song2.name }}</b>
-        </p>
-        <p class="music__song-artist">{{ song2.artist }}</p>
-      </div>
-      <div class="music__song">
-        <img
-          src="{{ song3.image }}"
-          alt="song cover"
-          title="{{ song3.playedTime }}"
-        />
-        <p class="music__song-title">
-          <b>{{ song3.name }}</b>
-        </p>
-        <p class="music__song-artist">{{ song3.artist }}</p>
-      </div>
+      <a href="https://spotify.com/">
+        <div class="music__song">
+          <img
+            src="{{ song1.image }}"
+            alt="song cover"
+            title="{{ song1.playedTime }}"
+          />
+          <p class="music__song-title">
+            <b>{{ song1.name }}</b>
+          </p>
+          <p class="music__song-artist">{{ song1.artist }}</p>
+        </div>
+      </a>
+      <a href="https://spotify.com/">
+        <div class="music__song">
+          <img
+            src="{{ song2.image }}"
+            alt="song cover"
+            title="{{ song2.playedTime }}"
+          />
+          <p class="music__song-title">
+            <b>{{ song2.name }}</b>
+          </p>
+          <p class="music__song-artist">{{ song2.artist }}</p>
+        </div>
+      </a>
+      <a href="https://spotify.com/">
+        <div class="music__song">
+          <img
+            src="{{ song3.image }}"
+            alt="song cover"
+            title="{{ song3.playedTime }}"
+          />
+          <p class="music__song-title">
+            <b>{{ song3.name }}</b>
+          </p>
+          <p class="music__song-artist">{{ song3.artist }}</p>
+        </div>
+      </a>
     </div>
-    <p>
-      My GitHub Readme page is automatically generated every 6 hours with the
-      help of
-      <a href="https://github.com/features/actions" target="_blank">
-        GitHub Actions :octocat:</a
-      >.
-    </p>
   </div>
+
+  <p>
+    My GitHub Readme page is automatically generated every 6 hours with the help
+    of
+    <a href="https://github.com/features/actions" target="_blank">
+      GitHub Actions :octocat:</a
+    >.
+  </p>
 </div>

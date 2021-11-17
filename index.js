@@ -96,8 +96,8 @@ async function getToken() {
   request.post(authOptions, function (error, response, body) {
     if (!error && response.statusCode === 200) {
       // use the access token to access the Spotify Web API
-      var token = body.access_token;
-      var options = {
+      const token = body.access_token;
+      const options = {
         url: 'https://api.spotify.com/v1/users/bptmvjlwd14p9mys4qlv9i6wb',
         headers: {
           Authorization: 'Bearer ' + token,
