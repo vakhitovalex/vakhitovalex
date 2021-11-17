@@ -113,7 +113,7 @@
   </p>
 
   <p>
-    Today is Wednesday, November 17, 13:49 GMT+3. <br />Today's weather in <b>Kazan</b>:
+    Today is Wednesday, November 17, 13:52 GMT+3. <br />Today's weather in <b>Kazan</b>:
     <b>1°C</b> and
     <b>Clouds:cloud:.</b> <br />Sunrise is at
     <b>07:23 GMT+3</b> and sunset is at <b>15:34 GMT+3</b
@@ -127,7 +127,7 @@
     </p>
     <div
       class="music__list"
-      style="display: flex; justify-content: space-evenly; width: 550px"
+      style="display: flex; justify-content: space-evenly"
     >
       <div class="music__song" style="margin: 0 40px">
         <img
