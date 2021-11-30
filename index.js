@@ -80,83 +80,84 @@ async function setWeatherInformation() {
     });
 }
 
-async function getToken() {
-  var authOptions = {
-    url: 'https://accounts.spotify.com/api/token',
-    headers: {
-      Authorization:
-        'Basic ' +
-        new Buffer(client_id + ':' + client_secret).toString('base64'),
-    },
-    form: {
-      grant_type: 'client_credentials',
-    },
-    json: true,
-  };
-  request.post(authOptions, function (error, response, body) {
-    if (!error && response.statusCode === 200) {
-      // use the access token to access the Spotify Web API
-      const token = body.access_token;
-      const options = {
-        url: 'https://api.spotify.com/v1/users/bptmvjlwd14p9mys4qlv9i6wb',
-        headers: {
-          Authorization: 'Bearer ' + token,
-        },
-        json: true,
-      };
-      request.get(options, function (error, response, body) {
-        fs.readFile('./.env', (err, data) => {
-          if (err) {
-            console.log(err);
-            return;
-          }
-          const symbol = data.toString('utf8');
-          const array = symbol.split('\n');
-          array.splice(-1, 1, `spot=${token}`);
-          const symbols = array.join('\n');
-          fs.writeFile('./.env', symbols, (err) => {
-            if (err) console.log(err);
-            else console.log(symbols);
-          });
-        });
-      });
-    }
-  });
-}
+// async function getToken() {
+//   var authOptions = {
+//     url: 'https://accounts.spotify.com/api/token',
+//     headers: {
+//       Authorization:
+//         'Basic ' +
+//         new Buffer(client_id + ':' + client_secret).toString('base64'),
+//     },
+//     form: {
+//       grant_type: 'client_credentials',
+//     },
+//     json: true,
+//   };
+//   request.post(authOptions, function (error, response, body) {
+//     if (!error && response.statusCode === 200) {
+//       // use the access token to access the Spotify Web API
+//       const token = body.access_token;
+//       const options = {
+//         url: 'https://api.spotify.com/v1/users/bptmvjlwd14p9mys4qlv9i6wb',
+//         headers: {
+//           Authorization: 'Bearer ' + token,
+//         },
+//         json: true,
+//       };
+//       request.get(options, function (error, response, body) {
+//         fs.readFile('./.env', (err, data) => {
+//           if (err) {
+//             console.log(err);
+//             return;
+//           }
+//           const symbol = data.toString('utf8');
+//           const array = symbol.split('\n');
+//           array.splice(-1, 1, `spot=${token}`);
+//           const symbols = array.join('\n');
+//           fs.writeFile('./.env', symbols, (err) => {
+//             if (err) console.log(err);
+//             else console.log(symbols);
+//             return;
+//           });
+//         });
+//       });
+//     }
+//   });
+// }
 
-async function setRecentlyPlayedMusic() {
-  // await getToken(() => {
-  // setTimeout(resolve, 3000);
-  const token = process.env.spot;
-  await fetch(
-    'https://api.spotify.com/v1/playlists/37i9dQZF1DX7hmlhGsyxU0/tracks?market=RU&limit=3&offset=5',
-    {
-      headers: {
-        Accept: 'application / json',
-        'Content-Type': 'application/json',
-        Authorization: `Bearer ${token}`,
-      },
-    }
-  )
-    .then((response) => response.json())
-    .then((musicData) => {
-      infoData.song1 = {
-        name: musicData.items[0].track.name,
-        artist: musicData.items[0].track.artists[0].name,
-        image: musicData.items[0].track.album.images[2].url,
-      };
-      infoData.song2 = {
-        name: musicData.items[1].track.name,
-        artist: musicData.items[1].track.artists[0].name,
-        image: musicData.items[1].track.album.images[2].url,
-      };
-      infoData.song3 = {
-        name: musicData.items[2].track.name,
-        artist: musicData.items[2].track.artists[0].name,
-        image: musicData.items[2].track.album.images[2].url,
-      };
-    });
-}
+// async function setRecentlyPlayedMusic() {
+//   // await getToken(() => {
+//   // setTimeout(resolve, 3000);
+//   const token = await getToken();
+//   await fetch(
+//     'https://api.spotify.com/v1/playlists/37i9dQZF1DX7hmlhGsyxU0/tracks?market=RU&limit=3&offset=5',
+//     {
+//       headers: {
+//         Accept: 'application / json',
+//         'Content-Type': 'application/json',
+//         Authorization: `Bearer ${token}`,
+//       },
+//     }
+//   )
+//     .then((response) => response.json())
+//     .then((musicData) => {
+//       infoData.song1 = {
+//         name: musicData.items[0].track.name,
+//         artist: musicData.items[0].track.artists[0].name,
+//         image: musicData.items[0].track.album.images[2].url,
+//       };
+//       infoData.song2 = {
+//         name: musicData.items[1].track.name,
+//         artist: musicData.items[1].track.artists[0].name,
+//         image: musicData.items[1].track.album.images[2].url,
+//       };
+//       infoData.song3 = {
+//         name: musicData.items[2].track.name,
+//         artist: musicData.items[2].track.artists[0].name,
+//         image: musicData.items[2].track.album.images[2].url,
+//       };
+//     });
+// }
 
 function generateReadMe() {
   fs.readFile(MUSTACHE_MAIN_DIR, (err, data) => {
@@ -167,12 +168,10 @@ function generateReadMe() {
 }
 
 async function action() {
-  await getToken();
+  // await getToken();
   await setWeatherInformation();
-  await setRecentlyPlayedMusic();
+  // await setRecentlyPlayedMusic();
   await generateReadMe();
 }
-
-// setRecentlyPlayedMusic();
 
 action();

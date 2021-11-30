@@ -113,42 +113,39 @@
   </p>
 
   <p>
-    Today is Wednesday, November 17, 14:26 GMT+3. <br />Today's weather in <b>Kazan</b>:
-    <b>1°C</b> and
+    Today is Wednesday, December 1, 01:35 GMT+3. <br />Today's weather in <b>Kazan</b>:
+    <b>3°C</b> and
     <b>Clouds:cloud:.</b> <br />Sunrise is at
-    <b>07:23 GMT+3</b> and sunset is at <b>15:34 GMT+3</b
+    <b>07:49 GMT+3</b> and sunset is at <b>15:16 GMT+3</b
     >. The lenght of the day is
-    <b>8 hours and 11 minutes</b>.
+    <b>7 hours and 27 minutes</b>.
   </p>
   <br />
-  <p>What I recenlty listened in Spotify to focus on my tasks:</p>
+  <!-- <p>What I recenlty listened in Spotify to focus on my tasks:</p>
   <div>
-    <a href="https://spotify.com/">
+    <a align="center" href="https://spotify.com/">
       <img
-        align="center"
-        src="https:&#x2F;&#x2F;i.scdn.co&#x2F;image&#x2F;ab67616d00004851fd30fb4685d9cc3a85e11427"
+        src=""
         alt="song cover"
-        title="The Fledgling by Hudson Swan"
+        title=" by "
       />
     </a>
-    <a href="https://spotify.com/">
+    <a align="center" href="https://spotify.com/">
       <img
-        align="center"
-        src="https:&#x2F;&#x2F;i.scdn.co&#x2F;image&#x2F;ab67616d0000485148720360422db24a4d0234ae"
+        src=""
         alt="song cover"
-        title="Northern Moon by Chris Bartels"
+        title=" by "
       />
     </a>
-    <a href="https://spotify.com/">
+    <a align="center" href="https://spotify.com/">
       <img
-        align="center"
-        src="https:&#x2F;&#x2F;i.scdn.co&#x2F;image&#x2F;ab67616d000048510f2dfcc59381e68da6b91a72"
+        src=""
         alt="song cover"
-        title="Révérence: II by Philippe Paquet"
+        title=" by "
       />
     </a>
-  </div>
-
+  </div> -->
+  <br />
   <p>
     My GitHub Readme page is automatically generated every 6 hours with the help
     of
