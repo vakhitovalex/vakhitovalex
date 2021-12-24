@@ -113,8 +113,8 @@
   </p>
 
   <p>
-    Today is Friday, December 24, 09:23 GMT+3. <br />Today's weather in <b>Kazan</b>:
-    <b>-22°C</b> and
+    Today is Friday, December 24, 15:29 GMT+3. <br />Today's weather in <b>Kazan</b>:
+    <b>-19°C</b> and
     <b>Clouds:cloud:.</b> <br />Sunrise is at
     <b>08:13 GMT+3</b> and sunset is at <b>15:12 GMT+3</b
     >. The lenght of the day is
