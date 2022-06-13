@@ -113,12 +113,12 @@
   </p>
 
   <p>
-    Today is Sunday, June 12, 21:21 GMT+3. <br />Today's weather in <b>Kazan</b>:
-    <b>12°C</b> and
-    <b>Clouds:cloud:.</b> <br />Sunrise is at
-    <b>02:59 GMT+3</b> and sunset is at <b>20:27 GMT+3</b
+    Today is Monday, June 13, 04:55 GMT+3. <br />Today's weather in <b>Kazan</b>:
+    <b>10°C</b> and
+    <b>Clear:sunny:.</b> <br />Sunrise is at
+    <b>02:58 GMT+3</b> and sunset is at <b>20:28 GMT+3</b
     >. The lenght of the day is
-    <b>17 hours and 28 minutes</b>.
+    <b>17 hours and 29 minutes</b>.
   </p>
   <br />
   <!-- <p>What I recenlty listened in Spotify to focus on my tasks:</p>
