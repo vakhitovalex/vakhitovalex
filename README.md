@@ -113,8 +113,8 @@
   </p>
 
   <p>
-    Today is Friday, June 24, 21:26 GMT+3. <br />Today's weather in <b>Kazan</b>:
-    <b>19°C</b> and
+    Today is Saturday, June 25, 04:54 GMT+3. <br />Today's weather in <b>Kazan</b>:
+    <b>15°C</b> and
     <b>Clear:sunny:.</b> <br />Sunrise is at
     <b>02:59 GMT+3</b> and sunset is at <b>20:32 GMT+3</b
     >. The lenght of the day is
