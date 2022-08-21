@@ -113,12 +113,12 @@
   </p>
 
   <p>
-    Today is Saturday, August 20, 21:24 GMT+3. <br />Today's weather in <b>Kazan</b>:
-    <b>19°C</b> and
+    Today is Sunday, August 21, 04:56 GMT+3. <br />Today's weather in <b>Kazan</b>:
+    <b>11°C</b> and
     <b>Clear:sunny:.</b> <br />Sunrise is at
-    <b>04:24 GMT+3</b> and sunset is at <b>19:09 GMT+3</b
+    <b>04:26 GMT+3</b> and sunset is at <b>19:07 GMT+3</b
     >. The lenght of the day is
-    <b>14 hours and 45 minutes</b>.
+    <b>14 hours and 40 minutes</b>.
   </p>
   <br />
   <!-- <p>What I recenlty listened in Spotify to focus on my tasks:</p>
