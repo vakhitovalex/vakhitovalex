@@ -113,7 +113,7 @@
   </p>
 
   <p>
-    Today is Wednesday, July 5 at 15:37 GMT+3. <br />Today's weather in <b>Kazan</b>:
+    Today is Wednesday, July 5 at 15:38 GMT+3. <br />Today's weather in <b>Kazan</b>:
     <b>30°C</b> and
     <b>Clouds:cloud:.</b> <br />Sunrise is at
     <b>03:06 GMT+3</b> and sunset is at <b>20:29 GMT+3</b
