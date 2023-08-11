@@ -113,9 +113,9 @@
   </p>
 
   <p>
-    Today is Friday, August 11 at 09:18 GMT+3. <br />Today's weather in <b>Kazan</b>:
-    <b>28°C</b> and
-    <b>Clouds:cloud:.</b> <br />Sunrise is at
+    Today is Friday, August 11 at 15:26 GMT+3. <br />Today's weather in <b>Kazan</b>:
+    <b>30°C</b> and
+    <b>Clear:sunny:.</b> <br />Sunrise is at
     <b>04:06 GMT+3</b> and sunset is at <b>19:31 GMT+3</b
     >. The lenght of the day is
     <b>15 hours and 24 minutes</b>.
