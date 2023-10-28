@@ -113,7 +113,7 @@
   </p>
 
   <p>
-    Today is Saturday, October 28 at 15:26 GMT+3. <br />Today's weather in <b>Kazan</b>:
+    Today is Saturday, October 28 at 21:17 GMT+3. <br />Today's weather in <b>Kazan</b>:
     <b>0°C</b> and
     <b>Clouds:cloud:.</b> <br />Sunrise is at
     <b>06:39 GMT+3</b> and sunset is at <b>16:14 GMT+3</b
