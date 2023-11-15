@@ -113,8 +113,8 @@
   </p>
 
   <p>
-    Today is Wednesday, November 15 at 09:20 GMT+3. <br />Today's weather in <b>Kazan</b>:
-    <b>3°C</b> and
+    Today is Wednesday, November 15 at 15:29 GMT+3. <br />Today's weather in <b>Kazan</b>:
+    <b>4°C</b> and
     <b>Clouds:cloud:.</b> <br />Sunrise is at
     <b>07:17 GMT+3</b> and sunset is at <b>15:38 GMT+3</b
     >. The lenght of the day is
