@@ -115,7 +115,7 @@
   <p>
     Today is Monday, January 8 at 15:30 GMT+3. <br />Today's weather in <b>Kazan</b>:
     <b>-18°C</b> and
-    <b>Clouds:cloud:.</b> <br />Sunrise is at
+    <b>Clear:sunny:.</b> <br />Sunrise is at
     <b>08:10 GMT+3</b> and sunset is at <b>15:28 GMT+3</b
     >. The lenght of the day is
     <b>7 hours and 18 minutes</b>.
