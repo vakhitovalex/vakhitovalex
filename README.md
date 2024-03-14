@@ -113,12 +113,12 @@
   </p>
 
   <p>
-    Today is Wednesday, March 13 at 21:18 GMT+3. <br />Today's weather in <b>Kazan</b>:
-    <b>-3°C</b> and
+    Today is Thursday, March 14 at 04:04 GMT+3. <br />Today's weather in <b>Kazan</b>:
+    <b>-4°C</b> and
     <b>Clouds:cloud:.</b> <br />Sunrise is at
-    <b>06:03 GMT+3</b> and sunset is at <b>17:42 GMT+3</b
+    <b>06:01 GMT+3</b> and sunset is at <b>17:44 GMT+3</b
     >. The lenght of the day is
-    <b>11 hours and 38 minutes</b>.
+    <b>11 hours and 43 minutes</b>.
   </p>
   <br />
   <!-- <p>What I recenlty listened in Spotify to focus on my tasks:</p>
